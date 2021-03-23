@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#FFF"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/filenameL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create file:   "/>
+
+        <EditText
+
+            android:id="@+id/filenameT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:hint="Filename"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout1"
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/inputL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Input string: "/>
+
+        <EditText
+
+            android:id="@+id/inputT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter content to add in file"
+
+
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/writeB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout2"
+        android:background="#8D000000"
+        android:text="Write to File"
+        android:textColor="#FFF" />
+
+    <Button
+        android:id="@+id/readB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/writeB"
+        android:layout_alignParentEnd="true"
+        android:backgroundTint="#F1EEEE"
+        android:text="Read file"
+        android:textColor="#8D000000" />
+
+    <TextView
+        android:id="@+id/contentDisplayL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#FFF"
+        android:textColor="#8D000000" />
+
+    <Button
+        android:id="@+id/nextB"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/roundbutton"
+        android:backgroundTint="#8D000000"
+        android:text="Next"
+        android:textColor="#FFF"
+        android:textSize="10sp" />
+
+    <RelativeLayout
+        android:id="@+id/tapCloseLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>

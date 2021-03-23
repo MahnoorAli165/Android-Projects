@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Game</string>
+    <string name="txt">GAME</string>
+    <string name="txt1">Points</string>
+    <string name="nxt">Next</string>
+    <string name="pnum">Please select a Prime Number</string>
+</resources>

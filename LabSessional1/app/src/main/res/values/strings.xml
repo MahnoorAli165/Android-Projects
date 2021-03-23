@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LabSessional1</string>
+    <string name="stone">Stone</string>
+    <string name="leave">Leave</string>
+    <string name="waterfall">Waterfall</string>
+    <string name="hut">Hut</string>
+    <string name="choice">Select the image you want to daisplay and click Next Button</string>
+    <string name="nxt">Next</string>
+
+</resources>

@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <style name="MyActionBar" parent="android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="colorPrimary">@color/white</item>
+    </style>
+    <!--    <style name="AppTheme.NoActionBar">-->
+    <!--        <item name="windowNoTitle">true</item>-->
+    <!--        <item name="windowActionBar">false</item>-->
+    <!--        <item name="android:windowFullscreen">false</item>-->
+    <!--        <item name="android:windowContentOverlay">@null</item>-->
+    <!--        <item name="windowActionModeOverlay">true</item>-->
+    <!--        <item name="android:windowEnableSplitTouch">false</item>-->
+    <!--        <item name="android:windowBackground">@android:color/white</item>-->
+    <!--        <item name= "android:fitsSystemWindows">false</item>-->
+    <!--        -->
+    <!--    </style>-->
+    <style name="Spinner" parent="Widget.AppCompat.Spinner">
+        <item name="backgroundTint">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="ActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/grey</item>
+        <item name="background">@color/grey</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>

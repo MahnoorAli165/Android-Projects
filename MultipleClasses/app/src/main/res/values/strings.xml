@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MultipleClasses</string>
+    <string name="calc">Calculator</string>
+    <string name="num1">Enter 1st Number</string>
+    <string name="num2">Enter 2nd Number</string>
+    <string name="op">Choose Operation</string>
+    <string name="add">+</string>
+    <string name="sub">-</string>
+    <string name="div">/</string>
+    <string name="mul">*</string>
+    <string name="rst">Result</string>
+    <string name="bck">Back</string>
+    <string name="hlo">Hello</string>
+</resources>

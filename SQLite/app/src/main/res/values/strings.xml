@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">SQLite</string>
+    <string name="heading">File Handling using SQLite</string>
+    <string name="fname">Please Enter Filename</string>
+    <string name="fwr">Please Write Something in File</string>
+    <string name="createwr">Create and Write File</string>
+    <string name="db">Create Database</string>
+    <string name="read">Read File</string>
+    <string name="dbop">Database Operations</string>
+    <string name="ctb">Create Table</string>
+    <string name="erec">Enter Record</string>
+    <string name="view">View Record</string>
+    <string name="tname">Enter Table Name</string>
+    <string name="dbname">Enter Database Name</string>
+    <string name="create">Create</string>
+    <string name="rec">Insert Record</string>
+    <string name="name">Name</string>
+    <string name="reg">Registeration Number</string>
+    <string name="sem">Semester</string>
+    <string name="vrec">View Record</string>
+
+
+</resources>

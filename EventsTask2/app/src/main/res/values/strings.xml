@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">EventsTask2</string>
+    <string name="mshrm">Mushroom</string>
+    <string name="tre">Tree</string>
+    <string name="wntr">Winter</string>
+    <string name="stn">Stone</string>
+    <string-array name="Nature">
+        <item>Mushroom</item>
+        <item>Tree</item>
+        <item>Winter</item>
+        <item>Stone</item>
+    </string-array>
+</resources>

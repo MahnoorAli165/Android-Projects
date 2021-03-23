@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4D4E6F45"
+    tools:context=".Database">
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="275dp"
+        android:layout_height="66dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="79dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="489dp"
+        android:background="#D7164743"
+        android:text="@string/ctb"
+        android:textColor="#F1EDED"
+        android:textSize="18sp"
+        tools:text="@string/ctb" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="260dp"
+        android:layout_height="63dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="101dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="612dp"
+        android:text="@string/dbop"
+        android:textColor="#E9131212"
+        android:textSize="24sp" />
+</RelativeLayout>

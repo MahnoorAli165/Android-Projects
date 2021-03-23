@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/makeT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Make"
+            android:textColor="#FFB300"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/modelT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Model"
+            android:textColor="#FFB300"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/engineT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Engine"
+            android:textColor="#FFB300"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/roundbutton"
+        android:backgroundTint="#FFB300"
+        android:onClick="submit"
+        android:text="Submit"
+        android:textColor="#000" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/roundbutton"
+        android:backgroundTint="#FFB300"
+        android:onClick="show"
+        android:text="Show All"
+        android:textColor="#000" />
+
+
+
+</RelativeLayout>

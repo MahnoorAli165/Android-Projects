@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Sensor</string>
+    <string name="acc">Accelerometer Sensor</string>
+    <string name="loc">Location Sensor</string>
+    <string name="gmap">Open Google Map</string>
+    <string name="psen">Proximity Sensor</string>
+    <string name="lat">Latitude</string>
+    <string name="lon">Longittude</string>
+</resources>

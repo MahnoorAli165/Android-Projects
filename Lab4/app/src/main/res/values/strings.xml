@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lab 4</string>
+    <string-array name="list_items">
+        <item>Android</item>
+        <item>Apple</item>
+        <item>Linux</item>
+        <item>Windows</item>
+    </string-array>
+</resources>

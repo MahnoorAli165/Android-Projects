@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.chhotay.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_categoryActivity"
+            app:destination="@id/categoryActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/categoryActivity"
+        android:name="com.example.chhotay.CategoryActivity"
+        android:label="fragment_category"
+        tools:layout="@layout/activity_category" >
+        <action
+            android:id="@+id/action_categoryActivity_to_cart"
+            app:destination="@id/cart" />
+    </fragment>
+    <activity
+        android:id="@+id/cart"
+        android:name="com.example.chhotay.Cart"
+        android:label="activity_cart"
+        tools:layout="@layout/activity_cart">
+        <action
+            android:id="@+id/action_cart_to_account"
+            app:destination="@id/account" />
+    </activity>
+    <activity
+        android:id="@+id/account"
+        android:name="com.example.chhotay.AccountActivity"
+        android:label="activity_account"
+        tools:layout="@layout/activity_account" />
+
+
+
+</navigation>

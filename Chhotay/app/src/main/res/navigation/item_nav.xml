@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_nav"
+    app:startDestination="@id/itemDetailFragment">
+    <fragment
+        android:id="@+id/itemDetailFragment"
+        android:name="com.example.chhotay.ItemDetailFragment"
+        android:label="fragment_item_detail"
+        tools:layout="@layout/fragment_item_detail" >
+
+        <action
+            android:id="@+id/action_itemDetailFragment_to_buy_now"
+            app:destination="@id/buy_now" />
+    </fragment>
+    <activity
+        android:id="@+id/buy_now"
+        android:name="com.example.chhotay.CheckoutActivity"
+        android:label="Buy_Now" >
+        <action
+            android:id="@+id/action_buy_now_to_cart"
+            app:destination="@id/cart" />
+    </activity>
+    <activity
+        android:id="@+id/cart"
+        android:name="com.example.chhotay.Cart"
+        android:label="activity_cart"
+        tools:layout="@layout/activity_cart">
+
+
+    </activity>
+
+</navigation>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#FFF"
+    tools:context=".SQLite">
+
+    <LinearLayout
+
+        android:id="@+id/layout0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Table:" />
+
+        <EditText
+
+            android:id="@+id/value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter table name"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout0"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/makeL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Make:" />
+
+        <EditText
+
+            android:id="@+id/makeT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter car make"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/modelL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Model:" />
+
+        <EditText
+
+            android:id="@+id/modelT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter car model"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:id="@+id/layout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/engineL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Engine:" />
+
+        <EditText
+
+            android:id="@+id/engineT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter car engine"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/enterB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout3"
+        android:layout_alignParentEnd="true"
+        android:backgroundTint="#F1EEEE"
+        android:text="Enter"
+        android:textColor="#8D000000" />
+
+    <EditText
+        android:id="@+id/tableT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:backgroundTint="#F1EEEE"
+        android:hint="Enter name of any existing table: "
+        android:textColor="#8D000000" />
+
+
+    <EditText
+        android:id="@+id/deleteT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:backgroundTint="#F1EEEE"
+        android:hint="Delete Where Model is: "
+        android:textColor="#8D000000" />
+
+    <Button
+        android:id="@+id/deleteB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:backgroundTint="#F1EEEE"
+        android:text="Delete"
+        android:textColor="#8D000000" />
+
+    <TextView
+        android:id="@+id/contentT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/createB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:backgroundTint="#8D000000"
+        android:text="Create"
+        android:textColor="#FFF" />
+
+    <Button
+        android:id="@+id/insertB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#8D000000"
+        android:text="Insert"
+        android:textColor="#FFF" />
+
+    <Button
+        android:id="@+id/viewB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:backgroundTint="#8D000000"
+        android:text="View"
+        android:textColor="#FFF" />
+
+
+
+
+
+</RelativeLayout>

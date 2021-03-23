@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.chhotay">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ChangePasswordActivity"></activity>
+        <activity android:name=".ContactUsActivity" />
+        <activity android:name=".HelpActivity" />
+        <activity android:name=".OrderActivity" />
+        <activity android:name=".CategoryActivity" />
+        <activity android:name=".ForgotPasswordActivity" />
+        <activity android:name=".MainScreenActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".AccountActivity" />
+        <activity android:name=".ConfirmOrderActivity" />
+        <activity android:name=".CashOnDeliveryActivity" />
+        <activity android:name=".PaymentMethodSelectionActivity" />
+        <activity android:name=".CheckoutActivity" />
+        <activity android:name=".Cart" />
+        <activity
+            android:name=".ItemDetailActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:noHistory="true"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeScreenActivity"
+            android:theme="@style/AppTheme" />
+    </application>
+
+</manifest>

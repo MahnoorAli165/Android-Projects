@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#6F99965A"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="80dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/sunny"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#9C424E2C"
+            android:onClick="sunnyClick"
+            android:text="Sunny"
+            android:textColor="#FA111111" />
+
+        <Button
+            android:id="@+id/foggy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#9C424E2C"
+            android:onClick="foggyClick"
+            android:text="Foggy"
+            android:textColor="#E40A0A0A" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Condition"
+        android:textAlignment="center"
+        android:textColor="#F7161515"
+        android:textSize="26sp" />
+
+</LinearLayout>
+
+
